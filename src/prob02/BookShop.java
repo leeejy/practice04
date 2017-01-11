@@ -1,5 +1,7 @@
 package prob02;
 
+import java.util.Scanner;
+
 public class BookShop {
 
 	public static void main(String[] args) {
@@ -30,7 +32,9 @@ public class BookShop {
 		}	
 		
 		System.out.println("*****도서 정보 출력하기******");
-		displayBookInfo( books );
+		for(Book book : books )
+			book.print();
+//		displayBookInfo( books );
 	}
 
 }

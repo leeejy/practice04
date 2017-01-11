@@ -1,4 +1,4 @@
-package prob04;
+	package prob04;
 
 public class Prob04 {
 
